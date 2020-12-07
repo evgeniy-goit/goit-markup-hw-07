@@ -1,0 +1,57 @@
+.logo-mail {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-mail {
+  display: block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--title-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover .logo-mail,
+.link:focus .logo-mail {
+  fill: var(--accent-color);
+}
+
+.logo-phone {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-phone {
+  display: block;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--title-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover .logo-phone,
+.link:focus .logo-phone {
+  fill: var(--accent-color);
+}
+
+.header-container .logo {
+  margin-right: 93px;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--main-text-color);
+}
