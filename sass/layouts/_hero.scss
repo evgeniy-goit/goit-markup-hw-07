@@ -4,7 +4,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--footer-background);
+  background-color: $footer-background;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -33,7 +33,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
   margin-top: 0px;
   margin-bottom: 30px;
 }

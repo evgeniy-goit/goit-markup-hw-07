@@ -1,6 +1,7 @@
+@import "./utils/variables";
+@import "./utils/mixins";
 @import "./base/fonts";
 @import "./base/common";
-@import "./layouts/variables";
 @import "./layouts/hero";
 @import "./layouts/section";
 @import "./layouts/features";
@@ -17,3 +18,4 @@
 @import "./components/checkbox";
 @import "./components/link-styles";
 @import "./components/logo-send";
+

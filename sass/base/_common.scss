@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: $title-color;
 }
 
 html {
@@ -26,10 +26,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  .logo {
+    margin-right: 93px;
+  }
 }
 
 .header {
-  background-color: var(--white);
+  background-color: $white;
   border-bottom: 1px solid #ececec;
 }
 
@@ -39,25 +43,25 @@ h3 {
   margin-top: 0px;
 }
 
-.active {
-  color: var(--accent-color);
-  /*position: relative;*/
-}
+.menu .active {
+  color: $accent-color;
 
-.active::after {
-  content: "";
-  position: absolute;
-  bottom: -125%;
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
-}
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -125%;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
 
-main {
+} 
+
+/*main {
   background-color: var(--background-color);
-}
+}*/
 
 .list {
   list-style: none;

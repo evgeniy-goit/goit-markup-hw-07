@@ -1,9 +1,9 @@
-.link-styles > li {
-  padding-top: 9px;
-}
-
 .link-styles {
   font-style: normal;
-  color: var(--white);
+  color: $white;
   padding-bottom: 60px;
+
+  > li {
+    padding-top: 9px;
+  }
 }

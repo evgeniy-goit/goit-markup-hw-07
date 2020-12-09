@@ -8,6 +8,16 @@
   position: relative;
   width: calc((100% - 60px) / 3);
   margin-left: 0px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .occupation-label {
@@ -26,16 +36,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--white);
+  color: $white;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.occupation-item-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.occupation-item-list > img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
