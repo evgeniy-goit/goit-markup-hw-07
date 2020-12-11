@@ -23,11 +23,8 @@
 }
 
 .checkbox-text {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-family: $main-font-family;
+  @include fonts(14px, 400, 1.71);
   color: $title-color;
 }
 

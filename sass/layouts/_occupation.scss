@@ -28,12 +28,9 @@
   padding-top: 27px;
   padding-bottom: 27px;
   width: 100%;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-family: $main-font-family;
+  @include fonts(14px, 700, 1.14,);
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: $white;

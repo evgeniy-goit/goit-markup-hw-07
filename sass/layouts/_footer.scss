@@ -28,10 +28,7 @@ footer {
 }
 
 .footer-icons-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 700, 1.14);
   text-transform: uppercase;
   color: $white;
   padding-top: 12px;
@@ -92,11 +89,9 @@ footer {
   padding-left: 16px;
   outline: none;
 
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 1.25;
+  font-family: $main-font-family;
+  @include fonts(16px, 400, 1.25);
   align-items: center;
-  letter-spacing: 0.03em;
   color: $white;
 
     &::placeholder {
@@ -112,11 +107,8 @@ footer {
   padding: 10px 29px;
   border-radius: 4px;
   border: none;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  font-family: $main-font-family;
+  @include fonts(16px, 700, 1.87, 0.06em);
   text-align: center;
   color: $white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

@@ -41,11 +41,8 @@
 
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-family: $secondary-font-family;
+  @include fonts(26px, 700, 1.19)
 }
 
 .logo-web {

@@ -42,11 +42,8 @@
 
 
 .features-scroll {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-family: $main-font-family;
+  @include fonts(14px, 700, 1.14);
   color: $main-text-color;
   text-transform: uppercase;
   margin-bottom: 0px;

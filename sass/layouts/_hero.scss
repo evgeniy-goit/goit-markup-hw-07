@@ -26,12 +26,9 @@
 }
 
 .page-title {
-  font-family: Roboto, sans-serif;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
+  font-family: $main-font-family;
+  @include fonts(44px, 900, 1.36, 0.06em);
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $white;
   margin-top: 0px;
