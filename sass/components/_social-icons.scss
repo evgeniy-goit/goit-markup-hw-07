@@ -12,25 +12,23 @@
 }
 
 .social-icons-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
   width: 44px;
   height: 44px;
   background-color: $white;
   /*background-color: #2f303a;*/
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $main-transition;
 
   &:hover,
   &:focus {
     background-color: $accent-color;
   }
-}
 
-.social-icons-link:hover .social-icons-svg,
-.social-icons-link:focus .social-icons-svg {
-  fill: $white;
+  &:hover .social-icons-svg,
+  &:focus .social-icons-svg {
+    fill: $white;
+  }
 }
 
 .social-icons-svg {

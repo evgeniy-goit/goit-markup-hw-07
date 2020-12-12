@@ -1,3 +1,16 @@
+.footer-btn, .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+}
+
 /* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
@@ -61,7 +74,6 @@ html {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /*border: 1px solid tomato;*/
 }
 
 .header-container {
@@ -109,9 +121,6 @@ h3 {
   background-color: #2196f3;
 }
 
-/*main {
-  background-color: var(--background-color);
-}*/
 .list {
   list-style: none;
   margin: 0px;
@@ -530,22 +539,12 @@ footer {
 }
 
 .footer-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 0px;
   padding: 10px 29px;
-  border-radius: 4px;
-  border: none;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
   color: #ffffff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -701,23 +700,14 @@ footer {
 }
 
 .btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
-  border-radius: 4px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
   color: #ffffff;
   background-color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -773,14 +763,14 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30px;
-  height: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: #ffffff;

@@ -24,7 +24,7 @@
   height: 90px;
   border: 1px solid $clients;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $main-transition;
 
   &:hover,
   &:focus {
@@ -36,7 +36,7 @@
 
 .clients-companies-logo {
   fill: $clients;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $main-transition;
 }
 
 
